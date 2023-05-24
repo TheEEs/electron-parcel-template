@@ -1,0 +1,26 @@
+{
+  "name": "electron_parcel",
+  "version": "0.1.0",
+  "description": "Template for building electron app with Parcel bundling ",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx foreman start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TheEEs",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-vue": "^2.8.3",
+    "daisyui": "^2.51.6",
+    "electron": "^24.3.1",
+    "foreman": "^3.0.1",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "vue": "^3.3.4"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "electron-is-dev": "^2.0.0"
+  }
+}
